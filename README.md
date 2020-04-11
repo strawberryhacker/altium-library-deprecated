@@ -1,18 +1,38 @@
-<img src="https://github.com/bjornbrodtkorb/altium-lib/blob/master/graphics/ad.png" width="200">
+<p align="center">
+  <img src="https://github.com/bjornbrodtkorb/altium-library/blob/master/graphics/altium_blue.png" width="400">
+</p>
 
 # Altium Library
 
-This is a basic Altium library containing most of the files needed for creating a PCB project.
+This is a basic Altium library containing most of the files needed for creating a PCB project. This library is based on the ocean blue Altium theme, giving a fresh and minemalistic working atmosphere.
+
+## Eample cover page
+
+<p align="center">
+  <img src="https://github.com/bjornbrodtkorb/altium-library/blob/master/graphics/blue_cover.png" width="1000">
+</p>
+
+## Example schematic
+
+<p align="center">
+  <img src="https://github.com/bjornbrodtkorb/altium-library/blob/master/graphics/blue_circuit.png" width="1000">
+</p>
 
 ## Features
+- Altium settings files
 - Component library
 - PCB rules
 - Graphics
+- Font
 - Output files
 - Templates
 
 ## How to use
-Please follow all the steps below in order to set it up correctly.
+Below i will describe all the different folders and how to use them.
+ 
+### Altium settings file
+
+This file embeds all the color settings for the schematic and PCB editor. The setting dialog is accessed from Tools->Preferences. In order to import the settings file, press the Load button in the bottom corner.
 
 ### Design rules
 This part describes how to add the component library
