@@ -1,22 +1,6 @@
-<p align="center">
-  <img src="https://github.com/bjornbrodtkorb/altium-library/blob/master/graphics/altium_blue.png" width="400">
-</p>
-
-# Altium Library
+# Summary
 
 This is a basic Altium library containing most of the files needed for creating a PCB project. This library is based on the ocean blue Altium theme, giving a fresh and minemalistic working atmosphere.
-
-## Eample cover page
-
-<p align="center">
-  <img src="https://github.com/bjornbrodtkorb/altium-library/blob/master/graphics/blue_cover.png" width="1000">
-</p>
-
-## Example schematic
-
-<p align="center">
-  <img src="https://github.com/bjornbrodtkorb/altium-library/blob/master/graphics/blue_circuit.png" width="1000">
-</p>
 
 ## Features
 - Altium settings files
