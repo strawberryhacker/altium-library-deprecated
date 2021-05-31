@@ -38,7 +38,7 @@ OutputMedium5_Type=GeneratedFiles
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=MWS-PCB-Programmer.PcbDoc
+OutputDocumentPath1=Mod-PCB.PcbDoc
 OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
@@ -48,11 +48,11 @@ OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=1
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908290~1,16908291~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=MWS-PCB.PcbDoc
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908290~1,16908291~1,16908296~1,16908297~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=MWS-PCB-Programmer.PcbDoc
+OutputDocumentPath2=Mod-PCB.PcbDoc
 OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
@@ -62,7 +62,7 @@ OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=2
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\strawberry\Documents\Mod-PCB\Mod-PCB.PcbDoc
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 OutputType3=Schematic Print
 OutputName3=Schematic Prints
 OutputCategory3=Documentation
@@ -222,51 +222,45 @@ OutputEnabled8_OutputMedium5=0
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.12|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration8_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 Configuration8_Name2=OutputConfigurationParameter2
-Configuration8_Item2=IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration8_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 Configuration8_Name3=OutputConfigurationParameter3
-Configuration8_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration8_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 Configuration8_Name4=OutputConfigurationParameter4
-Configuration8_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration8_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 Configuration8_Name5=OutputConfigurationParameter5
-Configuration8_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration8_Item5=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Bottom Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 Configuration8_Name6=OutputConfigurationParameter6
-Configuration8_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration8_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 Configuration8_Name7=OutputConfigurationParameter7
-Configuration8_Item7=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=False|IncludeViewports=True|Index=1|Mirror=True|Name=Bottom Assembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration8_Name8=OutputConfigurationParameter8
-Configuration8_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration8_Name9=OutputConfigurationParameter9
-Configuration8_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration8_Name10=OutputConfigurationParameter10
-Configuration8_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration8_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical7|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 PcbPrintPreferences8=
 OutputType9=BOM_PartType
 OutputName9=Bill of Materials Fitted
 OutputCategory9=Report
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=6
-OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium3=4
 OutputEnabled9_OutputMedium4=0
 OutputEnabled9_OutputMedium5=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=9
 Configuration9_Name1=ColumnNameFormat
 Configuration9_Item1=CaptionAsName
-Configuration9_Name2=Filter
-Configuration9_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration9_Name3=General
-Configuration9_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=True|Database=True|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=BOM_template.xls|BatchMode=5|FormWidth=1192|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration9_Name4=GroupOrder
-Configuration9_Item4=Fitted=True|Comment=True|Footprint=True
-Configuration9_Name5=SortOrder
-Configuration9_Item5=navn=Up
-Configuration9_Name6=VisibleOrder
-Configuration9_Item6=Designator=147|Quantity=68|navn=133|Description=410|leverandor=78|leverandor_varenr=115|pris=42|produsent=99|hylle=47|rad=40|kolonne=66|dybde=55
+Configuration9_Name2=General
+Configuration9_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=6|FormWidth=1192|FormHeight=660|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration9_Name3=GroupOrder
+Configuration9_Item3=Fitted=True|Comment=True|Footprint=True|Supplier Part Number 1=True
+Configuration9_Name4=SortOrder
+Configuration9_Item4=navn=Up
+Configuration9_Name5=VisibleOrder
+Configuration9_Item5=Designator=147|Quantity=68|navn=133|Description=198|leverandor=78|leverandor_varenr=115|pris=42|produsent=99|hylle=47|rad=40|kolonne=66|dybde=55|Supplier 1=100|Supplier Part Number 1=100
+Configuration9_Name6=VisibleOrder_Flat
+Configuration9_Item6=Designator=147|Quantity=68|navn=133|Description=198|leverandor=78|leverandor_varenr=115|pris=42|produsent=99|hylle=47|rad=40|kolonne=66|dybde=55|Supplier 1=100|Supplier Part Number 1=100
 OutputType10=BOM_PartType
 OutputName10=Bill of Materials
 OutputCategory10=Report
@@ -290,11 +284,25 @@ Configuration10_Name4=SortOrder
 Configuration10_Item4=LibRef=Up
 Configuration10_Name5=VisibleOrder
 Configuration10_Item5=LibRef=100|Designator=100|Design comment=100
+OutputType11=Pick Place
+OutputName11=Generates pick and place files
+OutputCategory11=Assembly
+OutputDocumentPath11=Mod-PCB.PcbDoc
+OutputVariantName11=
+OutputEnabled11=1
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=3
+OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
+OutputDefault11=0
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#18=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#19=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|DocumentPath=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\pcb\Mod-PCB.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=Z:\brukere\Lysreklamen\Lysreklamekontroller2015\Kontrollerkort\Project Outputs for Kontrollerkort\seedstudio.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for MWS-PCB-Programmer
+OutputBasePath2=Project Outputs for Mod-PCB
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -319,9 +327,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\bjorn\Documents\MWS-PCB-Programmer\Project Outputs for MWS-PCB-Programmer\
+OutputFilePath3=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\Project Outputs for Mod-PCB\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for MWS-PCB-Programmer
+OutputBasePath3=Project Outputs for Mod-PCB
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -331,10 +339,10 @@ OutputFileName3=
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for MWS-PCB-Programmer
+OutputBasePath4=Project Outputs for Mod-PCB
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -386,14 +394,14 @@ OpenOutput5=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=Z:\brukere\Lysreklamen\Lysreklamekontroller2015\Kontrollerkort\Project Outputs for Kontrollerkort\seedstudio.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\bjorn\Documents\MWS-PCB-Programmer\Project Outputs for MWS-PCB-Programmer\
-OpenOutputs3=1
+RelativeOutputPath3=C:\Users\bjorn\Documents\omnimod\v2-mod-pcb\Project Outputs for Mod-PCB\
+OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0
-OpenGerberOutput3=0
-OpenNCDrillOutput3=0
+OpenGerberOutput3=1
+OpenNCDrillOutput3=1
 OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
